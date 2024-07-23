@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,10 +11,11 @@ const Footer = () => {
               <div class="footer-info">
                 <h3>Viewpoint Health Management</h3>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA
+                  18A, Elsie Femi Pearse Str, <br /> off Adeola Odeku, Victoria
+                  Island, <br />
+                  Lagos, Nigeria
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  <strong>Phone:</strong> +234 808 489 7887
                   <br />
                   <strong>Email:</strong> info@viewpointhms.com
                   <br />
@@ -42,13 +44,22 @@ const Footer = () => {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                  <i class="bx bx-chevron-right"></i>{" "}
+                  <Link to={"/"} href="#">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                  <i class="bx bx-chevron-right"></i>{" "}
+                  <Link to={"/about"} href="#">
+                    About us
+                  </Link>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
+                  <i class="bx bx-chevron-right"></i>{" "}
+                  <Link to={"/services"} href="#">
+                    Services
+                  </Link>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
@@ -66,27 +77,27 @@ const Footer = () => {
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Hospital Management</a>
+                  <Link to={"/services"}>Hospital Management</Link>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Consulting and Clinical Advisory</a>
+                  <Link to={"/services"}>Consulting and Clinical Advisory</Link>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Dispensing and Pharmacy</a>
+                  <Link to={"/services"}>Dispensing and Pharmacy</Link>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Managed Care</a>
+                  <Link to={"/services"}>Managed Care</Link>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Clinic Services</a>
+                  <Link to={"/services"}>Clinic Services</Link>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Healthy Living</a>
+                  <Link to={"/services"}>Healthy Living</Link>
                 </li>
               </ul>
             </div>

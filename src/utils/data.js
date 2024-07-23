@@ -63,52 +63,52 @@ export const services = [
 
 export const howweWork = [
     {
-        icon: 'assets/img/consultation.png',
+        icon: 'assets/img/consultationg.png',
         heading: 'Consultation',
         text: 'We assign a dedicated team of consultants to assess the hospital\'s needs and goals'
     },
     {
-        icon: 'assets/img/assessment.png',
+        icon: 'assets/img/assessmentg.png',
         heading: 'Assessment',
         text: 'Our team conducts a thorough assessment of the hospital\'s operations, identifying areas for improvement'
     },
     {
-        icon: 'assets/img/customise.png',
+        icon: 'assets/img/customizeg.png',
         heading: 'Customized Solutions',
         text: 'We develop a tailored plan addressing the hospital\'s specific needs based on the required budget'
     },
     {
-        icon: 'assets/img/implement.png',
+        icon: 'assets/img/implementationg.png',
         heading: 'Implementation',
         text: 'Our experts work closely with hospital staff to implement recommended changes to meet international standards'
     },
     {
-        icon: 'assets/img/evaluate.png',
+        icon: 'assets/img/evaluateg.png',
         heading: 'Monitoring and Evaluation',
         text: 'We continuously monitor progress, evaluate outcomes, and make adjustments as needed'
     },
     {
-        icon: 'assets/img/support.png',
+        icon: 'assets/img/supportg.png',
         heading: 'Ongoing Support',
         text: 'Our team provides ongoing support and guidance to ensure sustained improvement'
     },
     {
-        icon: 'assets/img/metric.png',
+        icon: 'assets/img/metricg.png',
         heading: 'Performance Metrics',
         text: 'We establish key performance indicators (KPIs) to measure success and track progress'
     },
     {
-        icon: 'assets/img/report.png',
+        icon: 'assets/img/reportg.png',
         heading: 'Regular Reporting',
         text: 'We provide regular reports and updates to hospital leadership and stakeholders'
     },
     {
-        icon: 'assets/img/collaborate.png',
+        icon: 'assets/img/collaborateg.png',
         heading: 'Collaboration',
         text: 'We foster a collaborative environment between hospital staff, physicians, and our management team'
     },
     {
-        icon: 'assets/img/continuous.png',
+        icon: 'assets/img/continuousg.png',
         heading: 'Continuous Improvement',
         text: 'We stay up-to-date with industry best practices, ensuring our solutions remain effective and innovative'
     },
@@ -129,7 +129,7 @@ export const slides = [
         title: "Tailored Services",
         content:
             "We believe in putting the power of health management in your hands. Navigate our website to discover a spectrum of well tailored services, from preventive screenings to wellness programs.",
-        link: "#about",
+        link: "/about",
         linkText: "Read More",
     },
     {
@@ -137,7 +137,7 @@ export const slides = [
         title: "Cutting-Edge Technology",
         content:
             "Our team of experienced healthcare professionals is here to guide you on your journey to optimal health. Our commitment to continuous innovation ensures that you receive the best possible care in an ever-evolving healthcare landscape.",
-        link: "#about",
+        link: "/about",
         linkText: "Read More",
     },
 ];

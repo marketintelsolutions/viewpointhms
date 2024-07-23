@@ -25,14 +25,14 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <iframe
             style={{ border: 0, width: "100%", height: "350px" }}
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
             frameborder="0"
             allowfullscreen
           ></iframe>
-        </div>
+        </div> */}
 
         <div class="container">
           <div class="row mt-5">
@@ -42,7 +42,10 @@ const Contact = () => {
                   <div class="info-box">
                     <i class="bx bx-map"></i>
                     <h3>Our Address</h3>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <p>
+                      18A, Elsie Femi Pearse Str, off Adeola Odeku, Victoria
+                      Island, Lagos, Nigeria.
+                    </p>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -50,7 +53,7 @@ const Contact = () => {
                     <i class="bx bx-envelope"></i>
                     <h3>Email Us</h3>
                     <p>
-                      info@.viewpointhms.com
+                      info@viewpointhms.com
                       <br />
                       contact@viewpointhms.com
                     </p>
@@ -61,9 +64,9 @@ const Contact = () => {
                     <i class="bx bx-phone-call"></i>
                     <h3>Call Us</h3>
                     <p>
-                      +1 5589 55488 55
+                      +234 907 372 2905
                       <br />
-                      +1 6678 254445 41
+                      +234 808 489 7887
                     </p>
                   </div>
                 </div>

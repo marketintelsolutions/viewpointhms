@@ -34,7 +34,10 @@ const About = () => {
                 alt=""
               />
             </div>
-            <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div
+              className="col-lg-6 pt-4 pt-lg-0 content flex flex-col justify-center"
+              data-aos="fade-left"
+            >
               <h1 className="text-xl">
                 We're Top Professional Hospital Planning & Management
                 consultancy
@@ -45,7 +48,7 @@ const About = () => {
                   fontSize: "larger",
                   textAlign: "justify",
                 }}
-                className="font-light mt-4"
+                className="font-light mt-8"
               >
                 We believe that every individual deserves access to high-quality
                 healthcare services, and we are dedicated to making that a

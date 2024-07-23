@@ -18,7 +18,7 @@ const Hero = ({ text, image, heading }) => {
           {heading}
         </h1>
         <p className="text-white text-xl">
-          <Link to={"/"} className="text-primaryBlue">
+          <Link to={"/"} className="text-primaryGreen">
             Home
           </Link>{" "}
           / {text}

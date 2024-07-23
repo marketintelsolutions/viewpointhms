@@ -48,14 +48,17 @@ const Services = () => {
       <section
         className="relative text-white"
         style={{
-          backgroundImage: "url(assets/img/serviceshow.jpg)",
+          backgroundImage: "url(assets/img/abouts.jpg)",
           backgroundSize: "cover",
         }}
       >
         <div className="bg-[#000000ca] h-full w-full absolute top-0 left-0"></div>
         <div className="relative z-10 container py-20 flex flex-col gap-10">
-          <h2 className="text-4xl tracking-wide " data-aos="fade-left">
-            How we work
+          <h2
+            className="text-4xl tracking-wide text-white font-extrabold"
+            data-aos="fade-left"
+          >
+            HOW WE WORK
           </h2>
 
           <div className="border-1 border-white" data-aos="fade-right">
@@ -71,8 +74,10 @@ const Services = () => {
                     <img src={item.icon} alt="icon" className="h-[80px]" />
                   </div>
                   <div className="p-10 flex flex-col gap-5">
-                    <h3 className="text-xl font-bold">{item.heading}</h3>
-                    <p className="font-light text-gray-400">{item.text}</p>
+                    <h3 className="text-xl font-bold text-primaryGreen">
+                      {item.heading}
+                    </h3>
+                    <p className="font-light text-gray-200">{item.text}</p>
                   </div>
                 </div>
               );

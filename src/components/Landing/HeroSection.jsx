@@ -38,14 +38,14 @@ const HeroSection = () => {
               backgroundSize: "cover",
             }}
           >
-            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center text-white p-8">
+            <div className="absolute inset-0 w-full bg-black bg-opacity-50"></div>
+            <div className="absolute w-full inset-0 flex items-end pb-20 justify-center ">
+              <div className="text-center w-full container border-t-[6px] border-primaryBlue p-8 bg-white text-black">
                 <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
                 {slide.subtitle && (
                   <h4 className="text-2xl mb-4">{slide.subtitle}</h4>
                 )}
-                <p className="mb-8 max-w-2xl mx-auto">{slide.content}</p>
+                <p className="mb-8  mx-auto">{slide.content}</p>
                 <Link
                   to={slide.link}
                   className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300"
