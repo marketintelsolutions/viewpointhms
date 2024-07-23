@@ -22,7 +22,7 @@ const About = () => {
               specialising in Medical consultancy business which deals with
               state of Art Medical equipments and seamless integration of
               cutting-edge management practices with a human-centric approach
-              company is based in Nigeria.
+              company is based in Nigeria...
             </p>
           </div>
 
