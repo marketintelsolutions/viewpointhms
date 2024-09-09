@@ -2,7 +2,11 @@ import React from "react";
 
 const Appointment = () => {
   return (
-    <section id="appointment" className="appointment section-bg">
+    <section
+      id="appointment"
+      className="appointment section-bg py-10"
+      style={{ paddingTop: "130px", paddingBottom: "90px" }}
+    >
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Make an Appointment</h2>
@@ -59,7 +63,7 @@ const Appointment = () => {
           <div className="row">
             <div className="col-md-4 form-group mt-3">
               <input
-                type="datetime"
+                type="date"
                 name="date"
                 className="form-control datepicker"
                 id="date"
@@ -70,20 +74,34 @@ const Appointment = () => {
             <div className="col-md-4 form-group mt-3">
               <select name="department" id="department" className="form-select">
                 <option value="">Select Department</option>
-                <option value="Department 1">Cardiology</option>
-                <option value="Department 2">Neurology</option>
-                <option value="Department 3">Hepatology</option>
-                <option value="Department 4">Padiatrics</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Neurology">Neurology</option>
+                <option value="Intensive Care Unit (ICU)">
+                  Intensive Care Unit (ICU)
+                </option>
+                <option value="Padiatrics">Padiatrics</option>
+                <option value="Pharmacy"> Pharmacy</option>
+                <option value="Pathology">Pathology</option>
+                <option value="Radiology">Radiology</option>
+                <option value="Obstetrics and Gynecology">
+                  Obstetrics and Gynecology
+                </option>
+                <option value="Accidents & Emergency">
+                  Accidents & Emergency
+                </option>
+                <option value="Burns & Trauma">Burns & Trauma</option>
+                <option value=" General Surgery"> General Surgery</option>
               </select>
             </div>
-            <div className="col-md-4 form-group mt-3">
+            {/* <div className="col-md-4 form-group mt-3">
+            ; ; ;)
               <select name="doctor" id="doctor" className="form-select">
                 <option value="">Select Doctor</option>
                 <option value="Doctor 1">Doctor 1</option>
                 <option value="Doctor 2">Doctor 2</option>
                 <option value="Doctor 3">Doctor 3</option>
               </select>
-            </div>
+            </div> */}
           </div>
 
           <div className="form-group mt-3">

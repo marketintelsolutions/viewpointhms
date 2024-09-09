@@ -46,12 +46,22 @@ const HeroSection = () => {
                   <h4 className="text-2xl mb-4">{slide.subtitle}</h4>
                 )}
                 <p className="mb-8  mx-auto">{slide.content}</p>
-                <Link
-                  to={slide.link}
-                  className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300"
-                >
-                  {slide.linkText}
-                </Link>
+                {slide.title === "Tailored Services" && (
+                  <a
+                    className="bg-blue-500 relative z-20 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300"
+                    href="/#appointment"
+                  >
+                    {slide.linkText}
+                  </a>
+                )}
+                {slide.title !== "Tailored Services" && (
+                  <Link
+                    to={slide.link}
+                    className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300"
+                  >
+                    {slide.linkText}
+                  </Link>
+                )}
               </div>
             </div>
           </div>

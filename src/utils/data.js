@@ -129,7 +129,8 @@ export const slides = [
         title: "Tailored Services",
         content:
             "We believe in putting the power of health management in your hands. Navigate our website to discover a spectrum of well tailored services, from preventive screenings to wellness programs.",
-        link: "/about",
+        link: "/#appointment",
+        current: true,
         linkText: "Read More",
     },
     {

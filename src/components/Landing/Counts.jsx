@@ -48,7 +48,10 @@ const CountBox = ({ icon, end, children }) => {
   }, [isVisible, end]);
 
   return (
-    <div ref={boxRef} className="bg-white p-6 rounded-lg shadow-md">
+    <div
+      ref={boxRef}
+      className="bg-white p-6 rounded-lg shadow-md max-w-[400px] "
+    >
       <div className="flex gap-4 items-center mb-4">
         <div className="text-3xl text-primaryGreen">{icon}</div>
         <span className="text-4xl font-bold text-primaryBlue">{count}</span>
@@ -68,7 +71,7 @@ const Counts = () => {
   return (
     <section id="counts" className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex md:flex-row flex-col justify-center gap-8">
           <CountBox icon={<i className="fas fa-user-md"></i>} end={85}>
             <p className="text-sm">
               <strong className=" text-gray-700 mb-1">Doctors </strong>
@@ -89,7 +92,7 @@ const Counts = () => {
             </p>
           </CountBox>
 
-          <CountBox icon={<i className="fas fa-flask"></i>} end={14}>
+          {/* <CountBox icon={<i className="fas fa-flask"></i>} end={14}>
             <p className="text-sm">
               <strong className=" text-gray-700 mb-1">Research Lab </strong>
               <span className="text-gray-600">
@@ -97,16 +100,16 @@ const Counts = () => {
                 through cutting-edge science and discovery.
               </span>
             </p>
-          </CountBox>
+          </CountBox> */}
 
-          <CountBox icon={<i className="fas fa-award"></i>} end={80}>
+          {/* <CountBox icon={<i className="fas fa-award"></i>} end={80}>
             <p className="text-sm">
               <strong className=" text-gray-700 mb-1">Awards </strong>
               <span className="text-gray-600">
                 We have won multiple awards from several organizations
               </span>
             </p>
-          </CountBox>
+          </CountBox> */}
         </div>
       </div>
     </section>

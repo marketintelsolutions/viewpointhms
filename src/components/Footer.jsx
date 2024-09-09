@@ -106,7 +106,7 @@ const Footer = () => {
               <h4>Our Newsletter</h4>
               <p>Subscribe To Our Newsletter</p>
               <form action="" method="post">
-                <input type="email" name="email" />
+                <input placeholder="Email" type="email" name="email" />
                 <input type="submit" value="Subscribe" />
               </form>
             </div>

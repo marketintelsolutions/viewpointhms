@@ -47,6 +47,10 @@ const FeaturedServices = () => {
               <p className="description">
                 We streamline the scheduling process, ensuring efficient
                 appointment booking and reducing wait times.
+                <br />{" "}
+                <span className="opacity-60 font-extrabold">
+                  <a href="/#appointment">Make an appointment</a>
+                </span>
               </p>
             </div>
           </div>
