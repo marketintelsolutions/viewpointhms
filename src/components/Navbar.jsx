@@ -16,17 +16,17 @@ const Navbar = () => {
       </div>
       <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
-          <a href="index.html" class="logo me-auto">
+          <Link to={"/"} class="logo me-auto">
             <img src="assets/img/logo.png" alt="" />
-          </a>
+          </Link>
 
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-              <li>
+              {/* <li>
                 <NavLink className="nav-link scrollto" to="/">
                   Home
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink className="nav-link scrollto" to="/about">
                   About
