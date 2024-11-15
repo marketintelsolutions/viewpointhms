@@ -61,7 +61,7 @@ const CountBox = ({ icon, end, children }) => {
         href="#"
         className="text-primaryGreen transition-all hover:text-primaryBlue mt-4 inline-block"
       >
-        Find out more &raquo;
+       
       </a>
     </div>
   );
