@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const CountBox = ({ icon, end, children }) => {
+const CountBox = ({ icon, end, heading, children }) => {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const boxRef = useRef(null);
@@ -54,7 +54,9 @@ const CountBox = ({ icon, end, children }) => {
     >
       <div className="flex gap-4 items-center mb-4">
         <div className="text-3xl text-primaryGreen">{icon}</div>
-        <span className="text-4xl font-bold text-primaryBlue">{count}</span>
+        <span className="text-4xl font-bold text-primaryBlue">
+          {count} <span className="text-3xl">{heading}</span>{" "}
+        </span>
       </div>
       {children}
       <a
@@ -72,9 +74,13 @@ const Counts = () => {
     <section id="counts" className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="flex md:flex-row flex-col justify-center gap-8">
-          <CountBox icon={<i className="fas fa-user-md"></i>} end={85}>
+          <CountBox
+            icon={<i className="fas fa-user-md"></i>}
+            heading="Doctors"
+            end={85}
+          >
             <p className="text-sm">
-              <strong className=" text-gray-700 mb-1">Doctors </strong>
+              {/* <strong className=" text-gray-700 mb-1">Doctors </strong> */}
               <span className="text-gray-600">
                 They are pioneering care with unwavering expertise and
                 compassion.
@@ -82,9 +88,13 @@ const Counts = () => {
             </p>
           </CountBox>
 
-          <CountBox icon={<i className="far fa-hospital"></i>} end={41}>
+          <CountBox
+            icon={<i className="far fa-hospital"></i>}
+            end={41}
+            heading="Departments"
+          >
             <p className="text-sm">
-              <strong className=" text-gray-700 mb-1">Departments </strong>
+              {/* <strong className=" text-gray-700 mb-1">Departments </strong> */}
               <span className="text-gray-600">
                 Exemplary Hospital departments delivering excellence in every
                 facet of patient care

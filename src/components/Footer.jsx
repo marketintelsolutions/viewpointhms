@@ -133,7 +133,7 @@ const Footer = () => {
                   <strong>Email:</strong> info@viewpointhms.com
                   <br />
                 </p>
-                <div class="social-links mt-3">
+                {/* <div class="social-links mt-3">
                   <a href="#" class="twitter">
                     <i class="bx bxl-twitter"></i>
                   </a>
@@ -149,7 +149,7 @@ const Footer = () => {
                   <a href="#" class="linkedin">
                     <i class="bx bxl-linkedin"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 

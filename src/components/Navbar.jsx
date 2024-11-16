@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [isMenu, setIsMenu] = useState("false");
+
   return (
     <>
       <div id="topbar" className="d-flex align-items-center fixed-top">
@@ -15,18 +17,15 @@ const Navbar = () => {
         </div>
       </div>
       <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center">
+        <div class="container  d-flex align-items-center">
           <Link to={"/"} class="logo me-auto">
             <img src="assets/img/logo.png" alt="" />
           </Link>
 
-          <nav id="navbar" class="navbar order-last order-lg-0">
-            <ul>
-              {/* <li>
-                <NavLink className="nav-link scrollto" to="/">
-                  Home
-                </NavLink>
-              </li> */}
+          <nav id="navbar" class="navbar  order-last order-lg-0">
+            <ul
+              className={`${isMenu ? "zr:flex lg:flex" : "zr:hidden lg:flex"}`}
+            >
               <li>
                 <NavLink className="nav-link scrollto" to="/about">
                   About
@@ -37,18 +36,17 @@ const Navbar = () => {
                   Services
                 </NavLink>
               </li>
-              {/* <li>
-                <NavLink className="nav-link scrollto" to="/departments">
-                  Departments
-                </NavLink>
-              </li> */}
+
               <li>
                 <NavLink className="nav-link scrollto" to="/contact">
                   Contact
                 </NavLink>
               </li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
+            <i
+              onClick={() => setIsMenu(!isMenu)}
+              class="bi ml-4 bi-list mobile-nav-toggle"
+            ></i>
           </nav>
 
           <a href="#appointment" class="appointment-btn scrollto">
