@@ -190,6 +190,12 @@ h6 {
   }
 }
 
+@media (max-width: 668px) {
+  .appointment-btn {
+   display: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -198,12 +204,15 @@ h6 {
 */
 .navbar {
   padding: 0;
+  z-index: 99999;
+  position: static;
+
 }
 
 .navbar ul {
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex; */
   list-style: none;
   align-items: center;
 }
@@ -242,7 +251,7 @@ h6 {
 }
 
 .navbar .dropdown ul {
-  display: block;
+  /* display: block; */
   position: absolute;
   left: 14px;
   top: calc(100% + 30px);
@@ -327,7 +336,17 @@ h6 {
   }
 
   .navbar ul {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    top: 100%;
+    right: 0;
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: white;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 40px;
   }
 }
 
