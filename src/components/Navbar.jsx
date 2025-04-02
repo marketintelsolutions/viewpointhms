@@ -36,6 +36,11 @@ const Navbar = () => {
                   Services
                 </NavLink>
               </li>
+              <li>
+                <NavLink className="nav-link scrollto" to="/media">
+                  Media
+                </NavLink>
+              </li>
 
               <li>
                 <NavLink className="nav-link scrollto" to="/contact">

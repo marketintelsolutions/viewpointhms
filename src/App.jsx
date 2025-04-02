@@ -4,6 +4,7 @@ import SharedLayout from "./components/SharedLayout";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Services from "./pages/Services";
+import Media from "./pages/Media";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services />,
+      },
+      {
+        path: "/media",
+        element: <Media />,
       },
       {
         path: "/contact",

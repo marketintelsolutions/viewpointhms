@@ -101,25 +101,6 @@ const Counts = () => {
               </span>
             </p>
           </CountBox>
-
-          {/* <CountBox icon={<i className="fas fa-flask"></i>} end={14}>
-            <p className="text-sm">
-              <strong className=" text-gray-700 mb-1">Research Lab </strong>
-              <span className="text-gray-600">
-                Innovative research lab that advances our healthcare services
-                through cutting-edge science and discovery.
-              </span>
-            </p>
-          </CountBox> */}
-
-          {/* <CountBox icon={<i className="fas fa-award"></i>} end={80}>
-            <p className="text-sm">
-              <strong className=" text-gray-700 mb-1">Awards </strong>
-              <span className="text-gray-600">
-                We have won multiple awards from several organizations
-              </span>
-            </p>
-          </CountBox> */}
         </div>
       </div>
     </section>
