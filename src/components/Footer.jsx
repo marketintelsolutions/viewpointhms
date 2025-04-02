@@ -174,14 +174,6 @@ const Footer = () => {
                     Services
                   </Link>
                 </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Privacy policy</a>
-                </li>
               </ul>
             </div>
 

@@ -49,7 +49,7 @@ const HeroSection = () => {
                 {slide.title === "Tailored Services" && (
                   <a
                     className="bg-blue-500 relative z-20 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300"
-                    href="/#appointment"
+                    href="/services"
                   >
                     {slide.linkText}
                   </a>
