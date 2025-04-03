@@ -48,7 +48,7 @@ const Media = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-3 mt-5">
+          <div className="flex flex-col gap-3 mt-5 text-justify">
             <p className="text-lg font-light">
               The Ogun State government has handed over its specialist hospital
               to Afrilife’s portfolio company, VIEWPOINT, following the signing
