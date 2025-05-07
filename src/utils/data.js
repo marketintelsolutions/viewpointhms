@@ -141,4 +141,12 @@ export const slides = [
         link: "/about",
         linkText: "Read More",
     },
+    {
+        image: "assets/img/slide/slide-4.jpg",
+        title: "Concession: Ogun hands over specialist hospital to Afrilife’s VIEWPOINT",
+        content:
+            "The Ogun State government has handed over its specialist hospital to Afrilife’s portfolio company, VIEWPOINT, following the signing of a 25-year concession agreement between both parties. This handover signifies not only a significant moment for AFRILIFE & VIEWPOINT but also for a fulfilled promise of the best healthcare delivery in Ogun State.",
+        link: "/media",
+        linkText: "Read More",
+    },
 ];
