@@ -113,7 +113,7 @@ const Media = () => {
               below:
             </p>
           </div>
-          <div className="flex gap-4 mt-5">
+          {/* <div className="flex gap-4 mt-5">> 
             <a
               className="underline text-blue-600"
               target="_blank"
@@ -135,7 +135,7 @@ const Media = () => {
             >
               More News
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="w-full max-w-[380px]">
           <h2 className="text-3xl font-bold">Latest News</h2>
